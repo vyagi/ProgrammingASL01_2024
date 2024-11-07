@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductoryClasses", "IntroductoryClasses\IntroductoryClasses.csproj", "{D6AB77C1-F517-4667-9BFB-65E1566EB5E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPBasics", "OOPBasics\OOPBasics.csproj", "{D5A35B20-589D-443B-A4A3-14D59B1AABFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPBasics", "OOPBasics\OOPBasics.csproj", "{D5A35B20-589D-443B-A4A3-14D59B1AABFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticingTheLanguage", "PracticingTheLanguage\PracticingTheLanguage.csproj", "{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D5A35B20-589D-443B-A4A3-14D59B1AABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5A35B20-589D-443B-A4A3-14D59B1AABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5A35B20-589D-443B-A4A3-14D59B1AABFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
