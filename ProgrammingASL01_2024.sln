@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductoryClasses", "Intr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPBasics", "OOPBasics\OOPBasics.csproj", "{D5A35B20-589D-443B-A4A3-14D59B1AABFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticingTheLanguage", "PracticingTheLanguage\PracticingTheLanguage.csproj", "{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticingTheLanguage", "PracticingTheLanguage\PracticingTheLanguage.csproj", "{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{3C2B3BEF-9AFB-4B0A-96EA-7855DA2B01E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC1F1A3-E50E-4FF9-8761-E9CC7428E659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2B3BEF-9AFB-4B0A-96EA-7855DA2B01E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2B3BEF-9AFB-4B0A-96EA-7855DA2B01E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2B3BEF-9AFB-4B0A-96EA-7855DA2B01E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2B3BEF-9AFB-4B0A-96EA-7855DA2B01E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
