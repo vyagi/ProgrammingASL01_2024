@@ -2,16 +2,36 @@
 
 var musicians = MusicData.Musicians;
 
-var task2 = musicians.GroupBy(x => x.Instruments.Count);
+//Group musicians by the number of hobbies they have and retrieve the distinct
+// instruments they play in each group.
 
-foreach (var subcollection in task2)
-{
-    Console.WriteLine(subcollection.Key);
-    foreach (var musician in subcollection)
+var task10 = musicians
+    .GroupBy(x => x.Hobbies.Count)
+    .Select(x => new
     {
-        Console.WriteLine(musician.Name);
+        HobbyCount = x.Key,
+        Instruments = x.SelectMany(y=>y.Instruments).Distinct()
+    });
+foreach (var subcollection in task10)
+{
+    Console.WriteLine(subcollection.HobbyCount);
+    foreach (var instrument in subcollection.Instruments)
+    {
+        Console.WriteLine(instrument);
     }
 }
+
+
+// var task2 = musicians.GroupBy(x => x.Instruments.Count);
+
+//foreach (var subcollection in task2)
+//{
+//    Console.WriteLine(subcollection.Key);
+//    foreach (var musician in subcollection)
+//    {
+//        Console.WriteLine(musician.Name);
+//    }
+//}
 
 //Using Distinct, GroupBy, Any and All
 
